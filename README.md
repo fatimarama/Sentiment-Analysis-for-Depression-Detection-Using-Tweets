@@ -3,12 +3,17 @@ This project focuses on sentiment analysis to identify signs of depression in so
 
 ## Key Components:
 ### 1. Data Source:
-    - **Source:** Tweets collected using dataset from Kaggle.
-    - **Preprocessing:** Cleaning and preprocessing tweets to remove noise such as hashtags, mentions, links, and special characters.
+  - **Source:** Tweets dataset downnloaded from Kaggle.
+  - **Preprocessing:** Cleaning and preprocessing tweets to remove noise such as hashtags, links, and special characters.
+    - **Groq:** Utilized for high-performance embedding generation.
+    - **all-MiniLM-L6-v2:** A lightweight model for creating efficient and effective embeddings.
+    - **Llama-3.1-70b-versatile:** Used for geenrating relevant responses.
 
-  ### 2. Sentiment Analysis Models:
-    - **Model Selection:** Used four different models for sentiment analysis to compare results.
-    - **Depression Detection:** Models specifically trained to identify depressive sentiments based on the text of the tweets.
+### 2. Sentiment Analysis Models:
+
+  - **Model Selection:** Used four different models for sentiment analysis to compare results.
+  - **Depression Detection:** Models specifically trained to identify depressive sentiments based on the text of the tweets.
+
 
 ## Workflow:
   ### 1. Data Preparation:
