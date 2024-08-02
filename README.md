@@ -14,7 +14,6 @@ This project focuses on sentiment analysis to identify signs of depression in so
   - **Model Selection:** Used four different models for sentiment analysis to compare results.
   - **Depression Detection:** Models specifically trained to identify depressive sentiments based on the text of the tweets.
 
-
 ## Workflow:
   ### 1. Data Preparation:
     - Collect tweets using the Twitter API based on specific keywords and hashtags related to depression.
