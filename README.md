@@ -13,18 +13,18 @@ This project focuses on sentiment analysis to identify signs of depression in so
 
 ## Workflow:
 ### Data Preparation:
-  - Collect tweets using the Twitter API based on specific keywords and hashtags related to depression.
-  - Clean and preprocess the text data to ensure it is suitable for analysis.
+  - Clean and preprocess the text data to ensure it is suitable for analysis, used lowercasing and regex to remove url links and special characters.
+  - Used TF-IDF vectorizer to preprocess the text.
 
-Model Training and Fine-tuning:
+### Model Training:
+  - Used four different models (LOgistic Regression, Naive Bayes, Decision Tree, Support Vector Machine) and trained them using a labeled dataset of tweets categorized as positive or negative for depression.
+   - Employed various NLP techniques such as tokenization, stopword removal, and lemmatization to enhance model performance.
 
-Utilize pre-trained sentiment analysis models and fine-tune them using a labeled dataset of tweets categorized as depressive or non-depressive.
-Employ various NLP techniques such as tokenization, stopword removal, and lemmatization to enhance model performance.
-Depression Detection:
+### Depression Detection:
+  - Used models to classify tweets as indicating depression or not.
+  - Evaluated models performance using metrics such as accuracy, precision, recall, and F1 score.
 
-Implement the sentiment analysis model to classify tweets as indicating depression or not.
-Evaluate model performance using metrics such as accuracy, precision, recall, and F1 score.
-Results and Performance:
-Accuracy: The project aims to achieve high accuracy in detecting depressive sentiments in tweets.
-Efficiency: Use of efficient NLP techniques and models ensures quick and accurate sentiment analysis.
-Scalability: The system is designed to handle a large volume of tweets and can be scaled as needed.
+## Results and Performance:
+  - **Accuracy:** This project aims to achieve high accuracy in detecting depressive sentiments in tweets.
+  - **Efficiency:** Use of efficient NLP techniques and models ensures quick and accurate sentiment analysis.
+  - **Comparative Analysis:** Logistic Regression and Support Vector Machine (SVM) achieved higher accuracy as compared to Naive Bayes and Decision Tree.
