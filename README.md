@@ -13,8 +13,8 @@ This project focuses on sentiment analysis to identify signs of depression in so
 
 ## Workflow:
 ### Data Preparation:
-    - Collect tweets using the Twitter API based on specific keywords and hashtags related to depression.
-    - Clean and preprocess the text data to ensure it is suitable for analysis.
+  - Collect tweets using the Twitter API based on specific keywords and hashtags related to depression.
+  - Clean and preprocess the text data to ensure it is suitable for analysis.
 
 Model Training and Fine-tuning:
 
