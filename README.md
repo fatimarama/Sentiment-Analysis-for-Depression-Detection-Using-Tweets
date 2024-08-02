@@ -2,7 +2,7 @@
 This project focuses on sentiment analysis to identify signs of depression in social media users based on their tweets. By using multiple natural language processing (NLP) techniques and machine learning models, this project aims to detect depression-related sentiments.
 
 ## Key Components:
-  ### 1. Data Source:
+### 1. Data Source:
     - **Source:** Tweets collected using dataset from Kaggle.
     - **Preprocessing:** Cleaning and preprocessing tweets to remove noise such as hashtags, mentions, links, and special characters.
 
